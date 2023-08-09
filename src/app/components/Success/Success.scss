@@ -1,0 +1,30 @@
+.success{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background-color: #F2F4F8;
+    .left-part{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        .list{
+            padding: 0px 20px;
+
+            .paragraph{
+                margin-block: 10px;
+            }
+        }
+    }
+    .right-part{
+
+
+        .courses{
+
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+        }
+    }
+}

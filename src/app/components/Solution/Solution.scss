@@ -1,0 +1,25 @@
+.solution {
+    padding: 30px 20px;
+    overflow: hidden;
+    
+    .left-part {
+        // justify-content: center;
+        margin-block: 25px;
+        .image-wrapper{
+            width: 480px;
+        }
+    }
+
+    .right-part {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        .list {
+            padding: 0px 20px;
+
+            .paragraph {
+                margin-block: 10px;
+            }
+        }
+    }
+}

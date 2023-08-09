@@ -1,0 +1,20 @@
+
+.account{
+    background-color: var(--gray-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 10px;
+    padding: 20px 30px;
+
+    .image-wrapper{
+        margin: 30px;
+        width: 350px;
+    }
+    .paragraph{
+        text-align: center;
+        padding-inline: 20px;
+    }
+}

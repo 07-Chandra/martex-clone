@@ -1,10 +1,12 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {}
-
-// module.exports = nextConfig
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
 
-module.exports = {
-    distDir: "build",
-};
+module.exports = nextConfig;
+
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {}
+
+// module.exports = {
+//     distDir: "build",
+// };

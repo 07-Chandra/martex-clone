@@ -1,0 +1,57 @@
+.strategies {
+    padding: 30px 30px;
+    .top-part {
+        display: flex;
+        flex-direction: column;
+        .left-part {
+            display: flex;
+            justify-content: center;
+            .image-wrapper {
+                width: 500px;
+                .img {
+                    // width: 100%;
+                }
+            }
+        }
+        .right-part {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .list {
+                margin-top: -10px;
+                padding-inline: 20px;
+                .paragraph {
+                    margin-block: 10px;
+                }
+            }
+        }
+    }
+    .bottom-part {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-block: 20px;
+
+        .status {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 10px;
+            .number {
+                font-size: 38px;
+                font-weight: 600;
+            }
+            .paragraph {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .account-part {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
