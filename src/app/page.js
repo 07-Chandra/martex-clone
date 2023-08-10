@@ -17,21 +17,21 @@ import Article from "./components/Article/Article";
 export default function Home() {
     return (
         <main>
-            {/* <Hero /> */}
-            {/* <Services /> */}
-            {/* <Result /> */}
+            <Hero />
+            <Services />
+            <Result />
             <Workflow />
-            {/* <Marketing /> */}
-            {/* <Tools/> */}
-            {/* <Strategies/> */}
-            {/* <Progress/> */}
-            {/* <Success/> */}
-            {/* <Solution/> */}
-            {/* <Integrate/> */}
-            {/* <Datadriven/> */}
-            {/* <Productivity/> */}
-            {/* <Automate/> */}
-            {/* <Article/> */}
+            <Marketing />
+            <Tools/>
+            <Strategies/>
+            <Progress/>
+            <Success/>
+            <Solution/>
+            <Integrate/>
+            <Datadriven/>
+            <Productivity/>
+            <Automate/>
+            <Article/>
         </main>
     );
 }
