@@ -10,8 +10,8 @@ function Product({src , title , about}) {
             <div className="product-image">
                 <img className="img" src={src} alt={title} />
             </div>
-            <h1>{title}</h1>
-            <p>{about}</p>
+            <h1 className="subheading">{title}</h1>
+            <p className="paragraph">{about}</p>
         </div>
     );
 }

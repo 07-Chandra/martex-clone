@@ -38,12 +38,30 @@
   --text-color: #959595;
 }
 
-
+body{
+  background-color: #FFFFFF;
+}
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+h1 , h2 , h3 ,p{
+  color: #353F4F;
+}
+
+p{
+  font-weight: 600;
+}
+
+.btn{
+  border: none;
+  padding: 12px 15px;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: 550;
 }
 
 .img {
@@ -58,7 +76,7 @@
 }
 
 .subheading{
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 550;
 }
 
@@ -74,5 +92,15 @@
 @media only screen and (max-width : 800px) {
   .container {
     padding-inline: 0px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .subheading{
+    font-weight: 650;
+  }
+
+  .paragraph{
+    font-size: 18px;
   }
 }

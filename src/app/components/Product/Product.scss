@@ -1,11 +1,14 @@
 .product {
-    width: calc(90% / 3);
+    width: 75%;
     // aspect-ratio: (16 / 10);
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 25px;
+    justify-self: center;
+    align-self: center;
     align-items: center;
-    
+    text-align: center;
+
     .product-image {
         background-color: var(--gray-color);
         border-radius: 10px;
@@ -19,8 +22,18 @@
         .img {
             width: 100%;
             height: 100%;
-            
+
             background-size: cover;
         }
+    }
+    .paragraph {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .product{
+        width: 100%;
     }
 }

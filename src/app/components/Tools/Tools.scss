@@ -37,10 +37,17 @@
                 font-size: 20px;
                 font-weight: 600;
                 color: #3eb1ff;
+
+                &:hover{
+                    color: #353F4F;
+                }
             }
             .right-arrow {
                 font-size: 25px;
                 color: #3eb1ff;
+                &:hover{
+                    color: #353F4F;
+                }
             }
         }
     }

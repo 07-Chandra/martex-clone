@@ -5,23 +5,27 @@ function Services() {
     return (
         <div className="services container">
             <div className="service-title">
-                <p className="heading">Digital marketing that drives results for your business</p>
-                <p className="para">Ligula risus auctor tempus magna feugiat lacinia.</p>
+                <p className="heading">
+                    Digital marketing that drives results for your business
+                </p>
+                <p className="para">
+                    Ligula risus auctor tempus magna feugiat lacinia.
+                </p>
             </div>
             <div className="all-services">
                 <Product
-                    title={"Engagement Analysis"}
+                    title={"Intuitive Dashboard"}
                     about={
-                        "Egestas luctus augue undo ultrice aliquam in lacus feugiat cursus"
+                        "Luctus egestas augue undo ultrice aliquam in lacus congue dapibus"
                     }
                     src={
                         "https://dsathemes.com/html/martex_1.1/files/images/f_01.png"
                     }
                 />
                 <Product
-                    title={"Engagement Analysis"}
+                    title={"Effortless Integration"}
                     about={
-                        "Egestas luctus augue undo ultrice aliquam in lacus feugiat cursus"
+                        "Tempor laoreet augue undo ultrice aliquam in lacusq luctus feugiat"
                     }
                     src={
                         "https://dsathemes.com/html/martex_1.1/files/images/f_05.png"

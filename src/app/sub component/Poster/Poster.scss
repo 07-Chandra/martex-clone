@@ -1,0 +1,47 @@
+.poster {
+    // overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    .image-wrapper {
+        width: 450px;
+        .img {
+            border-radius: 10px;
+        }
+    }
+    .red {
+        font-weight: 500;
+        color: red;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+    .green {
+        font-weight: 500;
+        color: green;
+        font-size: 14px;
+    }
+    .purple {
+        font-weight: 500;
+        color: purple;
+        font-size: 14px;
+    }
+    .subheading {
+        font-size: 23px;
+        letter-spacing: 0px;
+        color: black;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .paragraph {
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .date-and-time {
+        display: flex;
+        column-gap: 10px;
+        .author {
+            font-weight: bold;
+        }
+    }
+}

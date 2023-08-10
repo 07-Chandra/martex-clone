@@ -1,0 +1,27 @@
+.solution {
+    .right-part {
+        .get-link-div {
+            margin-block: 15px;
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+
+            .get-link {
+                font-size: 20px;
+                font-weight: 600;
+                color: #3eb1ff;
+
+                &:hover {
+                    color: #353f4f;
+                }
+            }
+            .right-arrow {
+                font-size: 25px;
+                color: #3eb1ff;
+                &:hover {
+                    color: #353f4f;
+                }
+            }
+        }
+    }
+}

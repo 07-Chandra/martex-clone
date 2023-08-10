@@ -1,0 +1,60 @@
+.article {
+    padding: 30px 30px;
+    .header {
+        text-align: center;
+        margin-block: 20px;
+        .paragraph {
+            font-size: 18px;
+            margin-block: 10px;
+            text-align: center;
+        }
+    }
+    .all-poster {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        margin-block: 60px;
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        padding: 30px 20px;
+        .heading {
+            text-align: center;
+            font-size: 33px;
+            color: #353f4f;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            .input {
+                text-align: center;
+                border: none;
+                padding: 12px 17px;
+                background-color: transparent;
+                color: var(--gray-color);
+                color: black;
+                font-size: 17px;
+                font-weight: 500;
+                border: 1px solid #727985;
+                border-radius: 5px;
+            }
+            .submit {
+                cursor: pointer;
+                background-color: #5c99df;
+
+                color: white;
+                font-weight: bold;
+                border: none;
+                &:hover {
+                    background-color: #3588e8;
+                }
+            }
+        }
+    }
+}
