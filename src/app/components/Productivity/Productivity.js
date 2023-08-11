@@ -1,10 +1,10 @@
 import React from "react";
-import "../Solution/Solution.scss";
+// import "../Solution/Solution.scss";
 import './Productivity.scss'
 import { BsCheckLg } from "react-icons/bs";
 function Productivity() {
     return (
-        <div className="solution">
+        <div className="productivity">
             <div className="left-part">
                 <div className="image-wrapper">
                     <img

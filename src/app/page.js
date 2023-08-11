@@ -21,7 +21,7 @@ export default function Home() {
             <Services />
             <Result />
             <Workflow />
-            <Marketing />
+            <Marketing />  
             <Tools/>
             <Strategies/>
             <Progress/>

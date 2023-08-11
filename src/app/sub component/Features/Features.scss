@@ -1,9 +1,10 @@
 .features {
     display: flex;
-    row-gap: 30px;
+    // flex-direction: column;
+    row-gap: 25px;
+    margin-block: 10px;
     padding: 10px 10px;
     width: 45%;
-   
 
     .icon-part {
         flex: 1;
@@ -11,19 +12,18 @@
         display: flex;
         justify-content: center;
         .icon-wrapper {
-
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 90px;
-            height: 75px;
+            width: 70px;
+            height: 65px;
             background-color: rgba(128, 158, 189, 0.26);
             border-radius: 200px 132px 151px 132px;
             -webkit-border-radius: 200px 132px 151px 132px;
             -moz-border-radius: 200px 132px 151px 132px;
             .icon {
                 font-size: 50px;
-                color: #1680FB;
+                color: #1680fb;
             }
         }
     }
@@ -36,7 +36,7 @@
         row-gap: 15px;
         .name {
             text-align: left;
-            color: #353F55;
+            color: #353f55;
             font-size: 28px;
             font-weight: 600;
         }
@@ -44,9 +44,68 @@
             font-size: 17px;
             color: var(--text-color);
             text-align: justify;
-            line-height: 24px;
+            line-height: 26px;
             letter-spacing: 0.1px;
             font-weight: 500;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .features {
+        display: flex;
+        row-gap: 30px;
+        padding: 0px 0px;
+        flex-direction: column;
+        width: 100%;
+
+        .info {
+            .name {
+                text-align: center;
+                font-size: 27px;
+            }
+            .about {
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .features {
+        gap: 20px;
+        // padding: 0px 0px;
+        // flex-direction: column;
+        width: 40%;
+
+        .icon-part {
+            .icon-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 65px;
+                height: 55px;
+                background-color: rgba(128, 158, 189, 0.26);
+                border-radius: 200px 132px 151px 132px;
+                -webkit-border-radius: 200px 132px 151px 132px;
+                -moz-border-radius: 200px 132px 151px 132px;
+                .icon {
+                    font-size: 40px;
+                    color: #1680fb;
+                }
+            }
+        }
+
+        .info {
+            .name {
+                text-align: left;
+                font-size: 24px;
+            }
+            .about {
+                text-align: left;
+                font-size: 14px;
+            }
         }
     }
 }

@@ -1,52 +1,129 @@
 .tools {
     background-color: #f4f4f9;
-    padding: 30px 40px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    .left-part {
-        display: flex;
-        justify-content: center;
+    height: 90vh;
+    overflow: hidden;
 
-        .image-div {
-            width: 400px;
-            .img {
-                width: 100%;
-                height: 100%;
+    .cover {
+        width: 500px;
+        padding: 50px 10px;
+        background-image: url("https://dsathemes.com/html/martex_1.1/files/images/bg-04.jpg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+
+        // margin-left: 10px;
+        flex-direction: column;
+        border-radius: 10px;
+        row-gap: 40px;
+
+        .left-part {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .image-div {
+                width: 400px;
+            }
+        }
+        .right-part {
+            .heading {
+                margin-block: 20px;
+                font-size: 35px;
+                font-weight: 600;
+            }
+            .list {
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                margin-inline: 15px;
+                justify-content: center;
+                .paragraph {
+                    font-size: 16px;
+                }
+            }
+            .get-link-div {
+                margin-block: 15px;
+                display: flex;
+                // flex-direction: column;
+                align-items: center;
+
+                .get-link {
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: #3eb1ff;
+
+                    &:hover {
+                        color: #353f4f;
+                    }
+                }
+                .right-arrow {
+                    font-size: 22px;
+                    color: #3eb1ff;
+                    &:hover {
+                        color: #353f4f;
+                    }
+                }
             }
         }
     }
-    .right-part {
-        .heading {
-            margin-block: 20px;
-            font-size: 42px;
-            font-weight: 600;
-        }
-        .list {
-            display: flex;
-            flex-direction: column;
-            row-gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tools {
+        .cover {
+            width: 100%;
+
+            padding: 60px 60px;
+
+            // margin-left: 10px;
+            flex-direction: row-reverse;
+            border-radius: 10px;
+            column-gap: 20px;
             justify-content: center;
-        }
-        .get-link-div {
-            margin-block: 15px;
-            display: flex;
-            // flex-direction: column;
             align-items: center;
 
-            .get-link {
-                font-size: 20px;
-                font-weight: 600;
-                color: #3eb1ff;
+            .left-part {
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                &:hover{
-                    color: #353F4F;
+                .image-div {
+                    width: 450px;
                 }
             }
-            .right-arrow {
-                font-size: 25px;
-                color: #3eb1ff;
-                &:hover{
-                    color: #353F4F;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tools {
+        .cover {
+            width: 100%;
+
+            padding: 60px 100px;
+
+            .left-part {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .image-div {
+                    width: 550px;
+                }
+            }
+
+            .right-part {
+                .heading {
+                    font-size: 45px;
+                }
+                .list {
+                    .paragraph {
+                        font-size: 16px;
+                    }
                 }
             }
         }

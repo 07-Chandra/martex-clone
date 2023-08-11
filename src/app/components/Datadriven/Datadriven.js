@@ -1,10 +1,10 @@
 import React from "react";
-import "../Solution/Solution.scss";
+// import "../Solution/Solution.scss";
 import './Datadriven.scss'
 import { FiChevronRight } from "react-icons/fi";
 function Datadriven() {
     return (
-        <div className="solution">
+        <div className="data-driven">
             <div className="left-part">
                 <div className="image-wrapper">
                     <img
@@ -31,7 +31,7 @@ function Datadriven() {
                     </li>
                 </ul>
                 <div className="get-link-div">
-                    <p className="get-link">All-in-one platform</p>
+                    <p className="get-link">Marketing Integrations</p>
                     <FiChevronRight className="right-arrow" />
                 </div>
             </div>

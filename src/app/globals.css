@@ -38,7 +38,7 @@
   --text-color: #959595;
 }
 
-body{
+body {
   background-color: #FFFFFF;
 }
 
@@ -48,15 +48,18 @@ body{
   margin: 0;
 }
 
-h1 , h2 , h3 ,p{
+h1,
+h2,
+h3,
+p {
   color: #353F4F;
 }
 
-p{
+p {
   font-weight: 600;
 }
 
-.btn{
+.btn {
   border: none;
   padding: 12px 15px;
   font-size: 17px;
@@ -71,36 +74,54 @@ p{
 
 .heading {
   /* margin-block: 20p; */
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 650;
 }
 
-.subheading{
+.subheading {
   font-size: 26px;
   font-weight: 550;
 }
 
 .paragraph {
-  font-size: 17px;
+  font-size: 16px;
   text-align: justify;
   color: #6c7581;
-  line-height: 25px;
-  letter-spacing: 0.2px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
   font-weight: 450;
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen and (min-width : 768px) {
   .container {
     padding-inline: 0px;
   }
-}
 
-@media only screen and (min-width: 1200px) {
+  .heading{
+    font-size: 30px;
+  }
+
   .subheading{
-    font-weight: 650;
+    font-size: 24px;
   }
 
   .paragraph{
-    font-size: 18px;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width : 1200px) {
+  .subheading {
+    font-weight: 650;
+  }
+
+  .paragraph {
+    font-size: 17px;
+    line-height: 29px;
+  }
+
+  .heading {
+    font-size: 55px;
   }
 }

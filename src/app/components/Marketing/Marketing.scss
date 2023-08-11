@@ -1,32 +1,83 @@
-.marketing{
+.marketing {
     width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    padding: 20px 30px;
+    padding: 20px 10px;
     text-align: center;
-    .market-head{
+    .market-head {
         display: flex;
         flex-direction: column;
         row-gap: 20px;
 
-        .heading{
+        .heading {
             font-size: 42px;
             font-weight: 600;
         }
-        .subheading{
+        .subheading {
             font-size: 21px;
-             color : #353F55;;
+            color: #353f55;
             font-weight: 500;
-
-
         }
     }
-    .features-course{
-     justify-content: center;
-     padding-inline: 50px;
-     display: flex;
-     gap: 40px;
-     flex-wrap: wrap;
+    .features-course {
+        justify-content: center;
+
+        padding-inline: 50px;
+        display: flex;
+        flex-direction: column;
+        // gap: 40px;
+        row-gap: 50px;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .marketing {
+        .market-head {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .heading {
+                font-size: 40px;
+            }
+            .subheading {
+                font-size: 21px;
+            }
+        }
+        .features-course {
+            padding-inline: 0px;
+            justify-content: center;
+            
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .marketing {
+        .market-head {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .heading {
+                font-size: 55px;
+                padding-inline: 50px;
+                // width: 50%;
+            }
+            .subheading {
+                font-size: 21px;
+            }
+        }
+        .features-course {
+            justify-content: center;
+            padding-inline: 0px;
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+            flex-wrap: wrap;
+        }
     }
 }

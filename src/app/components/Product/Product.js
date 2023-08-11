@@ -1,10 +1,7 @@
 import React from "react";
 import "./Product.scss";
 
-function Product({src , title , about}) {
-
-    console.log("hello");
-
+function Product({ src, title, about }) {
     return (
         <div className="product">
             <div className="product-image">

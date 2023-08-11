@@ -1,14 +1,13 @@
 .course {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
-    background-color: #FFFFFF;
-    padding: 20px 10px;
+    background-color: #ffffff;
+    padding: 40px 10px;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
-   
 
     .icon-part {
         flex: 1;
@@ -17,19 +16,18 @@
         justify-content: center;
         padding: 0px 15px;
         .icon-wrapper {
-
             display: flex;
             justify-content: center;
             align-items: center;
             width: 75px;
             height: 65px;
-            background-color: rgba(128, 158, 189, 0.26);
+            background-color: rgba(128, 158, 189, 0.153);
             border-radius: 200px 132px 151px 132px;
             -webkit-border-radius: 200px 132px 151px 132px;
             -moz-border-radius: 200px 132px 151px 132px;
             .icon {
-                font-size: 43px;
-                color: #1680FB;
+                font-size: 35px;
+                color: #1680fb;
             }
         }
     }
@@ -42,19 +40,83 @@
         align-items: center;
         .name {
             text-align: left;
-            color: #353F55;
+            color: #353f55;
             font-size: 23px;
             font-weight: 600;
         }
         .paragraph {
-
-            
             // color: var(--text-color);
             text-align: justify;
             line-height: 24px;
             text-align: center;
             letter-spacing: 0.1px;
             font-weight: 500;
+        }
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .course {
+        width: 100%;
+        row-gap: 0px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        justify-content: left;
+        text-align: left;
+
+        .icon-part {
+            justify-content: left;
+            .icon-wrapper {
+                .icon {
+                    font-size: 32px;
+                }
+            }
+        }
+        .info {
+            flex: 4;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            align-items: center;
+            .name {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .course {
+        width: 100%;
+        row-gap: 30px;
+        padding-inline: 20px;
+
+        justify-content: left;
+        text-align: left;
+
+        .icon-part {
+            justify-content: left;
+            .icon-wrapper {
+                .icon {
+                    font-size: 45px;
+                }
+            }
+        }
+        .info {
+            flex: 4;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+            justify-content: left;
+            align-items: left;
+            .name {
+                text-align: left;
+                font-size: 20px;
+            }
+            .paragraph{
+                text-align: left;
+            }
         }
     }
 }

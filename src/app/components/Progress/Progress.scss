@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 40px;
-    padding-block: 30px;
+    padding-block: 30px 15px;
+    overflow: hidden;
     .top-part {
         display: flex;
         flex-direction: column;
@@ -18,6 +19,9 @@
         }
     }
     .bottom-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .image-wrapper {
             width: 500px;
             // height: 400px;
@@ -33,9 +37,12 @@
         display: flex;
         flex-direction: column;
         row-gap: 50px;
-        .header{
+        .header {
             // align-items: center;
             text-align: center;
+            .subheading {
+                font-size: 20px;
+            }
         }
         .companies {
             display: flex;
@@ -48,6 +55,67 @@
                     width: 100%;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .progress {
+        .top-part {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            text-align: justify;
+
+            .heading {
+                text-align: center;
+                font-size: 37px;
+            }
+        }
+        .bottom-part {
+            .image-wrapper {
+                width: 80%;
+                // height: 400px;
+
+            }
+        }
+
+        .marketing-companies {
+    
+            padding-inline: 100px;
+        
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .progress {
+        .top-part {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            text-align: justify;
+             align-items: center;
+
+            .heading {
+                width: 60%;
+                padding-inline: 50px;
+                text-align: center;
+                font-size: 55px;
+            }
+        }
+        .bottom-part {
+            .image-wrapper {
+                width: 80%;
+                // height: 400px;
+
+            }
+        }
+
+        .marketing-companies {
+    
+            padding-inline: 100px;
+        
         }
     }
 }

@@ -64,6 +64,8 @@ function Strategies() {
             </div>
             <div className="account-part">
                 <Account
+
+                    position="left"
                     src={
                         "https://dsathemes.com/html/martex_1.1/files/images/f_11.png"
                     }
@@ -73,6 +75,7 @@ function Strategies() {
                     }
                 />
                 <Account
+                position="right"
                     src={
                         "https://dsathemes.com/html/martex_1.1/files/images/f_04.png"
                     }

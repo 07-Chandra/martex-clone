@@ -78,6 +78,9 @@
                 font-size: 17px;
                 font-weight: 600;
                 color: #3eb1ff;
+                &:hover {
+                    color: #353f4f;
+                }
             }
             .right-arrow {
                 font-size: 22px;
