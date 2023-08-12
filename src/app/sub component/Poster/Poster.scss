@@ -1,47 +1,173 @@
 .poster {
     // overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    row-gap: 12px;
-    .image-wrapper {
-        width: 450px;
-        .img {
-            border-radius: 10px;
-        }
-    }
-    .red {
-        font-weight: 500;
-        color: red;
-        font-size: 14px;
-        text-transform: uppercase;
-    }
-    .green {
-        font-weight: 500;
-        color: green;
-        font-size: 14px;
-    }
-    .purple {
-        font-weight: 500;
-        color: purple;
-        font-size: 14px;
-    }
-    .subheading {
-        font-size: 23px;
-        letter-spacing: 0px;
-        color: black;
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-    .paragraph {
-        font-size: 16px;
-        letter-spacing: 0px;
-    }
-    .date-and-time {
+
+    .cover {
         display: flex;
-        column-gap: 10px;
-        .author {
-            font-weight: bold;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        row-gap: 12px;
+        .image-wrapper {
+            width: 380px;
+            .img {
+                border-radius: 10px;
+            }
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+            .red {
+                font-weight: 500;
+                color: red;
+                font-size: 14px;
+                text-transform: uppercase;
+            }
+            .green {
+                font-weight: 500;
+                color: green;
+                font-size: 14px;
+            }
+            .purple {
+                font-weight: 500;
+                color: purple;
+                font-size: 14px;
+            }
+            .subheading {
+                font-size: 23px;
+                letter-spacing: 0px;
+                color: black;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .paragraph {
+                font-size: 16px;
+                letter-spacing: 0px;
+            }
+            .date-and-time {
+                display: flex;
+                column-gap: 10px;
+                .author {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .poster {
+        // overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+        .image-wrapper {
+            width: 380px;
+            .img {
+                border-radius: 10px;
+            }
+        }
+        .red {
+            font-weight: 500;
+            color: red;
+            font-size: 10px;
+            text-transform: uppercase;
+        }
+        .green {
+            font-weight: 500;
+            color: green;
+            font-size: 10px;
+        }
+        .purple {
+            font-weight: 500;
+            color: purple;
+            font-size: 10px;
+        }
+        .subheading {
+            font-size: 18px;
+            letter-spacing: 0px;
+            color: black;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .paragraph {
+            font-size: 13px;
+            letter-spacing: 0px;
+        }
+        .date-and-time {
+            display: flex;
+            column-gap: 10px;
+            .author {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .poster {
+        // overflow:  hidden;
+        // padding: 20px 10px;
+        
+
+        .cover {
+            display: flex;
+            justify-content: center;
+
+            // align-items: center;
+
+            .image-wrapper {
+                width: 450px;
+                .img {
+                    border-radius: 10px;
+                }
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+                row-gap: 15px;
+
+                padding-right: 20px;
+                .red {
+                    font-weight: 500;
+                    color: red;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+                .green {
+                    font-weight: 500;
+                    color: green;
+                    font-size: 14px;
+                }
+                .purple {
+                    font-weight: 500;
+                    color: purple;
+                    font-size: 14px;
+                }
+                .subheading {
+                    font-size: 23px;
+                    letter-spacing: 0px;
+                    color: black;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                .paragraph {
+                    font-size: 16px;
+                    letter-spacing: 0px;
+                }
+                .date-and-time {
+                    display: flex;
+                    column-gap: 10px;
+                    .author {
+                        font-weight: bold;
+                    }
+                }
+            }
         }
     }
 }

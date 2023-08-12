@@ -4,6 +4,8 @@
     flex-direction: column;
     row-gap: 40px;
     padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     .market-head {
         display: flex;
@@ -23,16 +25,18 @@
     .features-course {
         justify-content: center;
 
-        padding-inline: 50px;
+        // padding-inline: 10px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         // gap: 40px;
         row-gap: 50px;
         flex-wrap: wrap;
     }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (min-width: 770px) {
     .marketing {
         .market-head {
             display: flex;
@@ -47,37 +51,36 @@
             }
         }
         .features-course {
-            padding-inline: 0px;
-            justify-content: center;
-            
-            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 10px;
         }
     }
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     .marketing {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .market-head {
             display: flex;
             flex-direction: column;
             row-gap: 20px;
 
             .heading {
-                font-size: 55px;
-                padding-inline: 50px;
-                // width: 50%;
+                font-size: 50px;
             }
             .subheading {
                 font-size: 21px;
             }
         }
         .features-course {
-            justify-content: center;
-            padding-inline: 0px;
-            display: flex;
-            flex-direction: row;
-            gap: 0px;
-            flex-wrap: wrap;
+            padding: 30px 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 10px;
         }
     }
 }

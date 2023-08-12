@@ -19,6 +19,10 @@
         display: flex;
         flex-direction: column;
         row-gap: 15px;
+
+        .subheading{
+            font-size: 35px;
+        }
         .list {
             padding: 0px 20px;
 
@@ -57,12 +61,13 @@
 }
 @media only screen and (min-width: 1200px) {
     .solution {
-        padding: 60px 100px;
+        padding: 80px 100px;
         flex-direction: row;
         overflow: hidden;
         justify-content: center;
         align-items: center;
         column-gap: 30px;
+        margin-bottom: 50px;
 
         .left-part {
             // justify-content: center;

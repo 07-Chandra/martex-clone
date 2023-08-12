@@ -12,7 +12,7 @@
     .all-poster {
         display: flex;
         flex-direction: column;
-        row-gap: 40px;
+        row-gap: 60px;
         margin-block: 60px;
     }
 
@@ -20,8 +20,9 @@
         display: flex;
         flex-direction: column;
         row-gap: 40px;
-        border-top: 2px solid black;
-        border-bottom: 2px solid black;
+        border-top: 0.2px solid rgb(110, 110, 110);
+        border-bottom: 0.2px solid rgb(110, 110, 110);
+        
         padding: 30px 20px;
         .heading {
             text-align: center;
@@ -46,13 +47,146 @@
             }
             .submit {
                 cursor: pointer;
-                background-color: #5c99df;
+                background-color: #2b7dda;
 
                 color: white;
                 font-weight: bold;
                 border: none;
                 &:hover {
                     background-color: #3588e8;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    .article {
+        padding: 30px 30px;
+        .header {
+            .paragraph {
+                font-size: 19px;
+
+            }
+        }
+        .all-poster {
+            // padding: 20px 20px;
+            flex-direction: row;
+            column-gap: 40px;
+            margin-block: 60px;
+
+            .hide{
+                display: none;
+            }
+        }
+
+        .subscribe {
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
+            padding: 50px 20px;
+            .heading {
+                text-align: center;
+                font-size: 24px;
+                color: #353f4f;
+            }
+            form {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 30px;
+                .input {
+                    width: 30%;
+                    text-align: center;
+                    border: none;
+                    padding: 12px 17px;
+                    background-color: transparent;
+                    color: var(--gray-color);
+                    color: black;
+                    font-size: 17px;
+                    font-weight: 500;
+                    border: 1px solid #727985;
+                    border-radius: 5px;
+                }
+                .submit {
+                    cursor: pointer;
+                    background-color: #5c99df;
+
+                    color: white;
+                    font-weight: bold;
+                    border: none;
+                    &:hover {
+                        background-color: #3588e8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .article {
+        padding: 30px 30px;
+        .header {
+            .paragraph {
+                font-size: 19px;
+
+            }
+        }
+        .all-poster {
+            // padding: 20px 20px;
+            flex-direction: row;
+            column-gap: 10px;
+            // margin-block: 60px;
+
+            .hide{
+                display: block;
+            }
+        }
+
+        .subscribe {
+            display: flex;
+            flex-direction: row;
+            column-gap: 30px;
+            padding: 50px 20px;
+            .heading {
+                text-align: center;
+                font-size: 50px;
+                color: #353f4f;
+            }
+            form {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                column-gap: 30px;
+                .input {
+                    width: 40%;
+                    text-align: center;
+                    border: none;
+                    padding: 12px 17px;
+                    background-color: transparent;
+                    color: var(--gray-color);
+                    color: black;
+                    font-size: 17px;
+                    font-weight: 500;
+                    border: 1px solid #727985;
+                    border-radius: 5px;
+                }
+                .submit {
+                    cursor: pointer;
+                    background-color: #5c99df;
+
+                    color: white;
+                    font-weight: bold;
+                    border: none;
+                    &:hover {
+                        background-color: #3588e8;
+                    }
                 }
             }
         }

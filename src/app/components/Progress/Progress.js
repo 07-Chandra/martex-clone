@@ -38,37 +38,40 @@ function Progress() {
                     <div className="image-wrapper">
                         <img
                             className="img"
-                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-5.png"
+                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-2.png"
                             alt="companies"
                         />
                     </div>
                     <div className="image-wrapper">
                         <img
                             className="img"
-                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-5.png"
+                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-6.png"
                             alt="companies"
                         />
                     </div>
-                    <div className="image-wrapper">
-                        <img
-                            className="img"
-                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-5.png"
-                            alt="companies"
-                        />
-                    </div>
-                    <div className="image-wrapper">
-                        <img
-                            className="img"
-                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-5.png"
-                            alt="companies"
-                        />
-                    </div>
-                    <div className="image-wrapper">
-                        <img
-                            className="img"
-                            src="https://dsathemes.com/html/martex_1.1/files/images/brand-5.png"
-                            alt="companies"
-                        />
+
+                    <div className="hide">
+                        <div className="image-wrapper">
+                            <img
+                                className="img"
+                                src="https://dsathemes.com/html/martex_1.1/files/images/brand-9.png"
+                                alt="companies"
+                            />
+                        </div>
+                        <div className="image-wrapper">
+                            <img
+                                className="img"
+                                src="https://dsathemes.com/html/martex_1.1/files/images/brand-4.png"
+                                alt="companies"
+                            />
+                        </div>
+                        <div className="image-wrapper">
+                            <img
+                                className="img"
+                                src="https://dsathemes.com/html/martex_1.1/files/images/brand-7.png"
+                                alt="companies"
+                            />
+                        </div>
                     </div>
                 </div>
             </div>

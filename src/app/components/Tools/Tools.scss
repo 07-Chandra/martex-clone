@@ -4,8 +4,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 90vh;
+
     overflow: hidden;
+    padding-inline: 20px;
 
     .cover {
         width: 500px;
@@ -30,6 +31,7 @@
             }
         }
         .right-part {
+            padding-inline: 30px;
             .heading {
                 margin-block: 20px;
                 font-size: 35px;
@@ -77,12 +79,12 @@
         .cover {
             width: 100%;
 
-            padding: 60px 60px;
+            padding: 60px 5px;
 
             // margin-left: 10px;
             flex-direction: row-reverse;
             border-radius: 10px;
-            column-gap: 20px;
+            column-gap: 10px;
             justify-content: center;
             align-items: center;
 
@@ -112,17 +114,21 @@
                 align-items: center;
 
                 .image-div {
-                    width: 550px;
+                    width: 600px;
                 }
             }
 
             .right-part {
+                display: flex;
+                flex-direction: column;
+                row-gap: 25px;
+                padding-inline: 40px;
                 .heading {
-                    font-size: 45px;
+                    font-size: 55px;
                 }
                 .list {
                     .paragraph {
-                        font-size: 16px;
+                        font-size: 19px;
                     }
                 }
             }

@@ -13,25 +13,29 @@ import Datadriven from "./components/Datadriven/Datadriven";
 import Productivity from "./components/Productivity/Productivity";
 import Automate from "./components/Automate/Automate";
 import Article from "./components/Article/Article";
+import Testomonial from "../app/components/Testomonial/Testomonial";
 
 export default function Home() {
     return (
-        <main>
+        <main
+            style={{ display: "flex", flexDirection: "column", rowGap: "40px" }}
+        >
             <Hero />
             <Services />
             <Result />
             <Workflow />
-            <Marketing />  
-            <Tools/>
-            <Strategies/>
-            <Progress/>
-            <Success/>
-            <Solution/>
-            <Integrate/>
-            <Datadriven/>
-            <Productivity/>
-            <Automate/>
-            <Article/>
+            <Marketing />
+            <Tools />
+            <Strategies />
+            <Progress />
+            <Success />
+            <Solution />
+            <Integrate />
+            <Datadriven />
+            <Productivity />
+            <Testomonial />
+            <Automate />
+            <Article />
         </main>
     );
 }

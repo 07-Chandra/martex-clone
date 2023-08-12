@@ -1,0 +1,109 @@
+.user {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0.09px rgb(95, 94, 94);
+    border-radius: 5px;
+    position: relative;
+
+    .paragraph {
+        font-size: 16px;
+        line-height: 26px;
+        z-index: 999;
+        color: #6c757d;
+    }
+
+    .icon {
+        position: absolute;
+        font-size: 80px;
+        top: 20px;
+        left: 10px;
+        // transform: rotate(-30deg);
+        z-index: 10;
+        color: #f0f1f2;
+    }
+
+    .profile {
+        margin-block: 20px;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+        .image-wrapper {
+            width: 50px;
+            .img {
+                border-radius: 50%;
+            }
+        }
+        .user-name {
+            .name {
+                font-size: 20px;
+
+                font-weight: bold;
+                margin-block: 10px;
+            }
+            .username {
+                color: rgb(69, 69, 69);
+                font-size: 15px;
+                font-weight: 450;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .user {
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        box-shadow: 0 0 5px 0.09px rgb(95, 94, 94);
+        border-radius: 5px;
+        position: relative;
+
+        .paragraph {
+            font-size: 16px;
+            line-height: 26px;
+            z-index: 999;
+            color: #6c757d;
+        }
+
+        .icon {
+            position: absolute;
+            font-size: 80px;
+            top: 20px;
+            left: 10px;
+            // transform: rotate(-30deg);
+            z-index: 10;
+            color: #f0f1f2;
+        }
+
+        .profile {
+            margin-block: 20px;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            column-gap: 15px;
+            .image-wrapper {
+                width: 50px;
+                .img {
+                    border-radius: 50%;
+                }
+            }
+            .user-name {
+                .name {
+                    font-size: 20px;
+
+                    font-weight: bold;
+                    margin-block: 10px;
+                }
+                .username {
+                    color: rgb(69, 69, 69);
+                    font-size: 15px;
+                    font-weight: 450;
+                }
+            }
+        }
+    }
+}

@@ -31,15 +31,17 @@ function Article() {
                     author="By Martex Team"
                     date="Apr 14, 2023"
                 />
-                <Poster
-                    src="https://dsathemes.com/html/martex_1.1/files/images/blog/post-5-img.jpg"
-                    color="purple"
-                    colorName="FREELANCER TIPS"
-                    name="Cubilia laoreet augue egestas and Martex magna impedit"
-                    about="Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets congue ultrice sagittis laoreet"
-                    author="By Miranda Green"
-                    date="Mar 27, 2023"
-                />
+                <div className="hide">
+                    <Poster
+                        src="https://dsathemes.com/html/martex_1.1/files/images/blog/post-5-img.jpg"
+                        color="purple"
+                        colorName="FREELANCER TIPS"
+                        name="Cubilia laoreet augue egestas and Martex magna impedit"
+                        about="Luctus vitae egestas augue and ipsum ultrice quisque in cursus lacus feugiat egets congue ultrice sagittis laoreet"
+                        author="By Miranda Green"
+                        date="Mar 27, 2023"
+                    />
+                </div>
             </div>
 
             <div className="subscribe">

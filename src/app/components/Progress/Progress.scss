@@ -48,12 +48,16 @@
             display: flex;
             flex-wrap: nowrap;
             column-gap: 20px;
+            padding-inline: 30px;
             .imag-wrapper {
                 width: 250px;
                 height: 250px;
                 .img {
                     width: 100%;
                 }
+            }
+            .hide {
+                display: none;
             }
         }
     }
@@ -76,14 +80,18 @@
             .image-wrapper {
                 width: 80%;
                 // height: 400px;
-
             }
         }
 
         .marketing-companies {
-    
             padding-inline: 100px;
-        
+
+            .companies {
+                .hide {
+
+                    display: flex;
+                }
+            }
         }
     }
 }
@@ -95,7 +103,7 @@
             flex-direction: column;
             row-gap: 30px;
             text-align: justify;
-             align-items: center;
+            align-items: center;
 
             .heading {
                 width: 60%;
@@ -108,14 +116,11 @@
             .image-wrapper {
                 width: 80%;
                 // height: 400px;
-
             }
         }
 
         .marketing-companies {
-    
             padding-inline: 100px;
-        
         }
     }
 }

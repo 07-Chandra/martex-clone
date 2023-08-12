@@ -1,5 +1,5 @@
 import React from "react";
-import "../Solution/Solution.scss";
+// import "../Solution/Solution.scss";
 import "./Automate.scss";
 function Automate() {
     return (
@@ -43,33 +43,51 @@ function Automate() {
                 </div>
 
                 <div className="right-part">
-                    <h2 className="subheading">
-                        Increase your productivity with workflow automation
-                    </h2>
-                    <p className="paragraph">
-                        Tempor sodales sapien quaerat ipsum undo congue laoreet
-                        turpis neque auctor turpis vitae dolor luctus placerat
-                        magna and ligula cursus purus vitae purus an ipsum
-                        suscipit
-                    </p>
-                    <h2 className="subheading">Integrate with popular tools</h2>
-                    <p className="paragraph">
-                        Nemo ipsam egestas volute turpis egestas ipsum and purus
-                        sapien ultrice an aliquam quaerat ipsum augue turpis
-                        sapien cursus congue magna purus quaerat at ligula purus
-                        egestas magna cursus undo varius purus magnis sapien
-                        quaerat
-                    </p>
+                    <div className="cover1">
+                        <h2 className="subheading">
+                            Increase your productivity with workflow automation
+                        </h2>
+                        <p className="paragraph">
+                            Tempor sodales sapien quaerat ipsum undo congue
+                            laoreet turpis neque auctor turpis vitae dolor
+                            luctus placerat magna and ligula cursus purus vitae
+                            purus an ipsum suscipit
+                        </p>
+                    </div>
+                    <div className="cover2">
+                        <h2 className="subheading">
+                            Integrate with popular tools
+                        </h2>
+                        <p className="paragraph">
+                            Nemo ipsam egestas volute turpis egestas ipsum and
+                            purus sapien ultrice an aliquam quaerat ipsum augue
+                            turpis sapien cursus congue magna purus quaerat at
+                            ligula purus egestas magna cursus undo varius purus
+                            magnis sapien quaerat
+                        </p>
+                    </div>
                 </div>
             </div>
-
             <div className="getting-started">
-                <h1 className="heading">Getting started with Martex today!</h1>
-                <p className="paragraph">
-                    Congue laoreet turpis neque auctor turpis vitae dolor a
-                    luctus placerat and magna ligula cursus
-                </p>
-                <button className="btn">Get Started - it's free</button>
+                <div className="part1">
+                    <h1 className="heading">
+                        Getting started with Martex today!
+                    </h1>
+                    <p className="paragraph">
+                        Congue laoreet turpis neque auctor turpis vitae dolor a
+                        luctus placerat and magna ligula cursus
+                    </p>
+                    <button className="btn">Get Started - it's free</button>
+                </div>
+                <div className="part2">
+                    <div className="image-wrap">
+                        <img
+                            className="img"
+                            src="https://dsathemes.com/html/martex_1.1/files/images/img-04.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     );

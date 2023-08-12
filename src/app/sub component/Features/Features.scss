@@ -1,18 +1,22 @@
 .features {
     display: flex;
-    // flex-direction: column;
+    flex-direction: column;
     row-gap: 25px;
-    margin-block: 10px;
-    padding: 10px 10px;
-    width: 45%;
+
+    margin-block: 20px;
+    width: 90%;
 
     .icon-part {
         flex: 1;
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         .icon-wrapper {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             width: 70px;
@@ -28,14 +32,14 @@
         }
     }
     .info {
-        flex: 4;
-
+        flex: 5;
         width: 100%;
         display: flex;
         flex-direction: column;
+
         row-gap: 15px;
         .name {
-            text-align: left;
+            text-align: center;
             color: #353f55;
             font-size: 28px;
             font-weight: 600;
@@ -43,7 +47,7 @@
         .about {
             font-size: 17px;
             color: var(--text-color);
-            text-align: justify;
+            text-align: center;
             line-height: 26px;
             letter-spacing: 0.1px;
             font-weight: 500;
@@ -51,48 +55,21 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
     .features {
-        display: flex;
-        row-gap: 30px;
-        padding: 0px 0px;
-        flex-direction: column;
         width: 100%;
+        display: flex;
 
-        .info {
-            .name {
-                text-align: center;
-                font-size: 27px;
-            }
-            .about {
-                text-align: center;
-                font-size: 16px;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .features {
-        gap: 20px;
-        // padding: 0px 0px;
-        // flex-direction: column;
-        width: 40%;
+        column-gap: 10px;
+        padding: 0px 0px;
+        flex-direction: row;
 
         .icon-part {
             .icon-wrapper {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 65px;
-                height: 55px;
-                background-color: rgba(128, 158, 189, 0.26);
-                border-radius: 200px 132px 151px 132px;
-                -webkit-border-radius: 200px 132px 151px 132px;
-                -moz-border-radius: 200px 132px 151px 132px;
+                width: 60px;
+                height: 60px;
                 .icon {
-                    font-size: 40px;
-                    color: #1680fb;
+                    font-size: 45px;
                 }
             }
         }
@@ -100,11 +77,52 @@
         .info {
             .name {
                 text-align: left;
-                font-size: 24px;
+                font-size: 21px;
             }
             .about {
                 text-align: left;
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .features {
+        // gap: 20px;
+        // padding: 0px 0px;
+        // flex-direction: column;
+        column-gap: 0px;
+        width: 100%;
+
+        .icon-part {
+            .icon-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 70px;
+                height: 65px;
+                background-color: rgba(128, 158, 189, 0.26);
+                border-radius: 200px 132px 151px 132px;
+                -webkit-border-radius: 200px 132px 151px 132px;
+                -moz-border-radius: 200px 132px 151px 132px;
+                .icon {
+                    font-size: 55px;
+                    color: #1680fb;
+                }
+            }
+        }
+
+        .info {
+            padding-inline: 40px;
+            .name {
+                text-align: left;
+                font-size: 27px;
+            }
+            .about {
+                text-align: left;
+                font-weight: 450;
+                font-size: 17px;
             }
         }
     }
